@@ -1,2 +1,2 @@
 # Site
-https:// segurancadainformacao.github.io./site/
+https:// segurancadainformacao.github.io./Site/
