@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon"  href="img/favicon-16x16.png">
     <link rel="">
-</head>
+    <script src="../formulario.js"></script>
+    
+
+</head> 
 
 <body>
     <header  class="fixo">
@@ -33,14 +36,15 @@
     <div class="container descer">
         
         <section>
-            <div class="form">
+            <div class="form" id="form">
                 <form action="#">                    
                     <div class="row">
                         <div class="col-25">
+                           <var nome></var>
                             <label>Digite seu nome: </label>
                         </div>
                         <div class="col-75">
-                            <input type="text" placeholder="Coloque seu nome completo">
+                            <input type="text" id="nome" placeholder="Coloque seu nome completo"></var>
                         </div>   
                     </div>
                     <div class="row">
@@ -69,19 +73,16 @@
                         </div>  
                     </div>
                     <div class="row">
-                        <input type="submit" value="Enviar"> 
+                        <button class="submit" onclick="enviar()">Enviar</button>
                     </div> 
                 </form>
             </div>
-           <script
-           src="https://projectcampos.github.io/meuprimeirosite/contato.html" crossorigin="anonymous"
-           ></script>
-           <script src="script.js"></script>
-
         </section>       
     </div>
+
+
     <footer>      
     <p class="center">Desenvolvido por...</p>
     </footer>
 </body>
-</html>
+</html> 
