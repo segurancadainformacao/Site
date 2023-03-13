@@ -26,25 +26,24 @@ header{
 }
 
 .menu{
-    background-color: rgba(6, 31, 63, 0.288);
+    background-color: rgba(193, 201, 212, 0);
     padding: 0%;
     align-items: center;
     text-align: center;
-    width: 100%;
+    flex-basis: 1900px;
+    height: 150px;
     position: relative;
     font-size: 1.5em;
-    line-height: 1;
+    display: flex;
     font-family: 'Climate Crisis', cursive;
     font-family: 'Fredoka One', cursive;
     font-family: 'Passion One', cursive;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Tilt Warp', cursive;
-    
-      
 }
 
 body{
-background-color: #4169E1;
+background-image: url(https://github.com/ProjectCampos/curriculo/blob/main/assets/img/hero-bg.jpg?raw=true);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size:cover ;
@@ -56,20 +55,25 @@ section{
 }
 
 .container{
-    width: 80%;
     margin: auto;
+    margin-top: 30%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
-   
 }
 
 
+
+
 h1{
+    color:#f8f8f8;
     text-align: center;
     font-family: 'Fredoka One', cursive;
     font-family: 'Passion One', cursive;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;   
-    text-shadow: 2px 2px 5px#a4b3e2	;
+    text-shadow: 2px 2px 5px#3a3e4b;
     font-size: 3em;
     margin-top: 1%;
     margin-bottom: 1%; 
@@ -77,30 +81,31 @@ h1{
     font-family: 'Fredoka One', cursive;
     font-family: 'Passion One', cursive;
     font-family: 'Roboto Mono', monospace;
-    font-family: 'Tilt Warp', cursive;
-
-     
+    font-family: 'Tilt Warp', cursive;  
 }
 
 h2{
-     color:rgba(2, 14, 22, 0.959);
+     color:#e4e7f0;
      text-align: center;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-weight: 700;   
-     text-shadow: 2px 2px 5px#a4b3e2	;
-     font-size: 5em;
+     text-shadow: 2px 2px 5px#3a3e4b;
+     font-size: 4em;
      margin-top: 1%;
      margin-bottom: 1%; 
      font-family: 'Climate Crisis', cursive;
     font-family: 'Fredoka One', cursive;
     font-family: 'Passion One', cursive;
     font-family: 'Roboto Mono', monospace;
-    font-family: 'Tilt Warp', cursive; 
-  	
+    font-family: 'Tilt Warp', cursive;  	
 }
 
+
+
+
+
 .img_corpo{
-    width: 75%;
+    width: 30%;
     
 }
 
@@ -126,15 +131,21 @@ figure{
 
         
     }
+    
     p{
         font-size: 1.4em;
-        color: rgb(255, 255, 255);
+        color: rgba(255, 255, 255, 0.733);
         font-weight: normal;
         text-indent: 60px;
         text-align: justify;
         line-height: 1.5;
-        font-style: oblique;
+        font-family: 'Climate Crisis', cursive;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Passion One', cursive;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Tilt Warp', cursive;  	
     }
+
     footer{
         background-color: #e6e6fa00;
         padding-top: 2%;
@@ -304,6 +315,32 @@ input[type=text], input[type=tel], input[type=email], select, textarea  {
       margin-top: 13%;
      
   }
+  
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgba(6, 31, 63, 0.288);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #a4b3e2;
+    font-family: 'Climate Crisis', cursive;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Passion One', cursive;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Tilt Warp', cursive;  
+  }
+  .button:hover {background-color:#081d5a}
+  
+  .button:active {
+    background-color: #a4b3e2;
+    box-shadow: 0 5px #4169E1;
+    transform: translateY(4px);
+  }
+
 
   
 

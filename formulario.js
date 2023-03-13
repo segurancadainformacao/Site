@@ -1,10 +1,13 @@
-function enviar() {
+function gets(button) {
 
+    const v = button.value //or button id
 
-
-    { var nome = document.getElementById("nome").value;
-
-    alert('Obrigado Sr(a) ' + nome + ' os seus dados foram encaminhados com sucesso');
+    switch(v){
+        case 1:alert("Pagina 1")
+        break
+        case 2:alert("pagina 2")
+        break
+        case 3:alert("Pagina 3")
+        break
     }
-
 }
