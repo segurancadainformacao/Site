@@ -1,13 +1,19 @@
-function gets(button) {
+function funcao(valor){
 
-    const v = button.value //or button id
+    //alert("valor recebido==> "+valor);
 
-    switch(v){
-        case 1:alert("Pagina 1")
-        break
-        case 2:alert("pagina 2")
-        break
-        case 3:alert("Pagina 3")
-        break
+    //console.log("valor recebido==> "+valor);
+
+    switch(valor){
+        case "1":alert("Página 1");
+        break;
+        case "2":alert("Página 2");
+        break;
+        case "3":alert("Página 3");
+        break;
+        default:
+            alert("Nenhuma das Opções!");
     }
 }
+
+
