@@ -27,13 +27,13 @@ header{
 
 .menu{
     background-color: rgba(193, 201, 212, 0);
-    padding: 0%;
+    padding: 8%;
     align-items: center;
     text-align: center;
     flex-basis: 1900px;
     height: 150px;
     position: relative;
-    font-size: 1.5em;
+    font-size: 1.1em;
     display: flex;
     font-family: 'Climate Crisis', cursive;
     font-family: 'Fredoka One', cursive;
@@ -224,9 +224,9 @@ a:active {
     padding: 70px;
     border-radius: 10px;
     font-size:1.5em
-    
-  
 }
+
+
 
 input[type=text], input[type=tel], input[type=email], select, textarea  {
     width: 80%;
@@ -234,16 +234,24 @@ input[type=text], input[type=tel], input[type=email], select, textarea  {
     border: 3px solid #084e8f ;
     border-radius: 20px;
     resize: vertical;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 2px 2px 5px#2F4F4F 
-   
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Tilt Warp', cursive;  
+    background-color:white ;
+
     
   }
 
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Tilt Warp', cursive;  
     text-shadow: 2px 2px 5px#151c5aa4 
     
 
@@ -257,8 +265,12 @@ input[type=text], input[type=tel], input[type=email], select, textarea  {
     border-radius: 6px;
     cursor: pointer;
     float: right;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 2px 2px 5px#2F4F4F 
+    font-family: 'Climate Crisis', cursive;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Passion One', cursive;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Tilt Warp', cursive;  
+    text-shadow: 2px 2px 5px#070b2b 
       
   }
 
@@ -347,7 +359,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea  {
      
   }
   
-.button {
+.botao {
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -364,9 +376,9 @@ input[type=text], input[type=tel], input[type=email], select, textarea  {
         font-family: 'Roboto Mono', monospace;
         font-family: 'Tilt Warp', cursive;  
   }
-  .button:hover {background-color:#081d5a}
+  .botao:hover {background-color:#081d5a}
   
-  .button:active {
+  .botao:active {
     background-color: #a4b3e2;
     box-shadow: 0 5px #4169E1;
     transform: translateY(4px);

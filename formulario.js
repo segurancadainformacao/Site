@@ -17,7 +17,12 @@ function Enviar(valor){
 
     switch(valor){
         case "1":alert(" Seus dados foram enviados com sucesso! ");
-        document.location
+        document.getElementById("nome").value=""
+        document.getElementById("tel").value=""
+        document.getElementById("email").value=""
         break;
     }
+}
+function limpar(){
+
 }

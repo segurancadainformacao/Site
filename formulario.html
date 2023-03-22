@@ -23,14 +23,13 @@
             <img class="img_logo" src="img/logo.png" alt="logo">
         </div>
         
-            <ul class="itens_menu ul li">
-                <a document.location href="index.html">Início</a>
-             <a document.location href="resumo.html">Resumo</a>
-             <a document.location href="decidir.html">Decidir</a>
-             <a document.location href="cursos.html">Cursos</a>
-             <a document.location href="formulario.html">Formulário</a>
-
-            </ul> 
+      <ul class="itens_menu ul li">
+     <a document.location href="index.html">Início</a>
+     <a document.location href="resumo.html">Resumo</a>
+     <a document.location href="decidir.html">Decidir</a>
+     <a document.location href="cursos.html">Cursos</a>
+     <a document.location href="formulario.html">Formulário</a>
+      </ul> 
          </nav>
         </header>
         <h2>Para mais informações</h2>
@@ -53,7 +52,7 @@
                             <label>Telefone: </label>
                         </div>
                         <div class="col-75">
-                            <input type="tel" placeholder="(99)99999-9999">
+                            <input type="tel" id="tel" placeholder="(99)99999-9999">
                         </div> 
                     </div>
                     <div class="row">
@@ -61,7 +60,7 @@
                             <label> E-mail</label>
                         </div>
                         <div class="col-75">
-                            <input type="email" placeholder="email@email.com">
+                            <input type="email" id="email" placeholder="email@email.com">
                         </div>   
                     </div>
                     <div class="row">
@@ -69,14 +68,14 @@
                             <label>Dúvidas</label>
                         </div>
                         <div class="col-75">
-                            <textarea name="message" rows="10" cols="30">
+                            <textarea name="message"  rows="10" cols="30">
                             </textarea> 
                         </div>  
                     </div>
                     <div class="row">
                     </div> 
                 </form>
-                <button value="1" onclick="Enviar(this.value);">Enviar</button>                    
+                <button value="1" class="botao" onclick="Enviar(this.value);">Enviar</button>                    
 
             </div>
         </section>       
