@@ -1,8 +1,5 @@
 function funcao(valor){
 
-    //alert("valor recebido==> "+valor);
-
-    //console.log("valor recebido==> "+valor);
 
     switch(valor){
         case "1":alert("Página 1");
@@ -16,4 +13,11 @@ function funcao(valor){
     }
 }
 
+function Enviar(valor){
 
+    switch(valor){
+        case "1":alert(" Seus dados foram enviados com sucesso! ");
+        document.location
+        break;
+    }
+}
